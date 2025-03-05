@@ -1,0 +1,26 @@
+Package: statorTI
+Title: Cellular Trajectory Inference Utiling Stator
+Version: 0.0.0.9005
+Authors@R: 
+    person("Aaron", "Paterson", , "s2185666@ed.ac.uk", role = c("aut", "cre"))
+Description: Uses a dataset which has previously been clustered by Stator to
+    perform trajectory inference on cells. Uses graph based methods which edge
+    weights based on distances or statistical tests, depending on the desired
+    graph topology.
+License: GPL (>= 3)
+Imports:
+    bubbles (>= 0.2),
+    dplyover (>= 0.0.8.9002),
+    dplyr,
+    ggplot2,
+    ggupset,
+    igraph,
+    magrittr,
+    tibble,
+    tidyr
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Remotes:  
+    TimTeaFan/dplyover,
+    jcheng5/bubbles
