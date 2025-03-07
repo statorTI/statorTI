@@ -1,6 +1,6 @@
 Package: statorTI
 Title: Cellular Trajectory Inference Utiling Stator
-Version: 0.0.0.9005
+Version: 1.0
 Authors@R: 
     person("Aaron", "Paterson", , "s2185666@ed.ac.uk", role = c("aut", "cre"))
 Description: Uses a dataset which has previously been clustered by Stator to
